@@ -1,6 +1,8 @@
-@import url('https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css');
-@import url('https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Ubuntu:wght@300;400&display=swap');
+
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
 
 .cursive{
   font-family: 'Dancing Script', cursive;
@@ -14,4 +16,31 @@
 
 .home-name {
   font-size: 150px;
+}
+
+.nav-header{
+  background-color: #cbeaed;
+}
+
+.lindsay {
+  color:#48b5c0;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.lindsay:hover{
+  color: #006a71
+}
+
+.teal {
+  color:#006a71;
+  font-size: 1.5rem;
+  letter-spacing: normal;
+}
+
+.navsubs{
+  color: #48b5c0;
+}
+
+.navsubs:hover{
+  color:#006a71;
 }
