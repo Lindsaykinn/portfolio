@@ -16,10 +16,14 @@
 
 .home-name {
   font-size: 150px;
+  color:#006a71;
+  font-weight: bold;
 }
 
 .nav-header{
   background-color: #cbeaed;
+  border-color: #48b5c0;
+  border-width: 1.75px;
 }
 
 .lindsay {
@@ -44,3 +48,21 @@
 .navsubs:hover{
   color:#006a71;
 }
+
+.main-skills{
+  background-color: #cbeaed;
+}
+
+.skillsh1{
+  color: #006a71;
+}
+
+.skillsh2{
+  color: #006a71
+}
+
+.skills-span{
+  border-left-color: #006a71;
+  border-left-width: 8px;
+}
+
