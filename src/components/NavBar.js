@@ -15,20 +15,21 @@ export default function NavBar() {
           </NavLink>
 
           <NavLink
-            to="/post"
-            className="navsubs inline-flex items-center py-2 px-3 mr-4 tracking-widest"
-            activeClassName="teal"
-          >
-            Blog Posts
-          </NavLink>
-
-          <NavLink
             to="/project"
             className="navsubs inline-flex items-center py-2 px-3 mr-4 tracking-widest"
             activeClassName="teal"
           >
             Projects
           </NavLink>
+          
+          <NavLink
+            to="/post"
+            className="navsubs inline-flex items-center py-2 px-3 mr-4 tracking-widest"
+            activeClassName="teal"
+          >
+            My Skills
+          </NavLink>
+
 
           <NavLink
             to="/about"
@@ -39,6 +40,13 @@ export default function NavBar() {
           </NavLink>
         </nav>
         <div className='inline-flex py-3 px-3 my-6'>
+          <SocialIcon
+            url="mailto:lindsay.kinn@gmail.com"
+            className="mr-4"
+            target="_blank"
+            fgColor="#fff"
+            style={{ height: 35, width: 35 }}
+          />
           <SocialIcon
             url="https://github.com/Lindsaykinn"
             className="mr-4"
