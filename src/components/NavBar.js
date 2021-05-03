@@ -40,6 +40,8 @@ export default function NavBar() {
           </NavLink>
         </nav>
         <div className='inline-flex py-3 px-3 my-6'>
+          <h1 className='contact'>Get in Touch! 👉🏻</h1>&nbsp;&nbsp;
+         
           <SocialIcon
             url="mailto:lindsay.kinn@gmail.com"
             className="mr-4"

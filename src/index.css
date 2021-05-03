@@ -29,7 +29,7 @@ body {
 .nav-header{
   background-color: #cbeaed;
   border-color: #48b5c0;
-  border-width: 1.75px;
+  border-width: 1.75px;  
 }
 
 .lindsay {
@@ -82,6 +82,13 @@ body {
 
 .about-box{
   background-color:#cbeaed;
+}
+
+.contact {
+  color:  #48b5c0;
+  font-weight: bolder;
+  font-size: large;
+  padding-top: 4px;
 }
 
 
