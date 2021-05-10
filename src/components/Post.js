@@ -34,7 +34,7 @@ export default function Post() {
           {postData &&
             postData.map((post, index) => (
               <article>
-                  <span className="skills-span block h-64 relative rounded shadow leading-snug bg-white key={index}">
+                  <span className="skills-span block h-64 relative rounded shadow leading-snug bg-white" key={index}>
                     <img
                       src={post.mainImage.asset.url}
                       alt={post.mainImage.alt}

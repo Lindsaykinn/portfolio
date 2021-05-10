@@ -4,6 +4,15 @@
 @tailwind utilities;
 @tailwind base;
 
+* {
+  box-sizing: border-box;
+}
+
+#page-wrap {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
 body {
   font-family: 'Ubuntu', sans-serif;
   color:#006a71;

@@ -39,12 +39,12 @@ export default function NavBar() {
             About Me!
           </NavLink>
         </nav>
-        <div className='inline-flex py-3 px-3 my-6'>
+        <div className='inline-flex py-3 px-3 my-6'>          
           <h1 className='contact'>Get in Touch! 👉🏻</h1>&nbsp;&nbsp;
          
           <SocialIcon
             url="mailto:lindsay.kinn@gmail.com"
-            className="mr-4"
+            className="md:mr-4"
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
