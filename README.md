@@ -1,3 +1,5 @@
+Please visit https://lindsaykinn-portfolio.netlify.app/ to view my portfolio in real time!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
